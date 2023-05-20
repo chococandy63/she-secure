@@ -1,6 +1,7 @@
 
 import 'package:flutter/material.dart';
 import 'package:firebase_core/firebase_core.dart';
+import 'package:women_safety/pages/alert.dart';
 import 'pages/loginpage.dart';
 import 'pages/homepage.dart';
 
@@ -18,6 +19,6 @@ class MyApp extends StatelessWidget {
       title: 'SheSecure',
       theme: new ThemeData(scaffoldBackgroundColor: Color.fromARGB(255, 0, 0, 0)),
 
-      home: const LoginPage());
+      home: LoginPage());
   }
 }
